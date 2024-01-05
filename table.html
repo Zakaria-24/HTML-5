@@ -1,52 +1,83 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Table</title>
-    <link rel="stylesheet" href="styles/table.css">
+    <title>About</title>
+    <link rel="stylesheet" href="styles/nav.css">
+
+    <style>
+        .boder th, td{
+    padding: 5px 10px;
+    border: 1px solid brown;
+}
+table{
+    border-collapse: collapse;
+}
+</style>
+
 </head>
 
 <body>
-    <h1>HTML Table</h1>
-    <table>
-        <caption>
-            Employee Salary Data
-        </caption>
-        <thead>
-            <tr class="boder">
-                <th>No.</th>
-                <th>name</th>
-                <th>Company</th>
-                <th>Salary</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="boder">
-                <td>1</td>
-                <td>abc</td>
-                <td>microsoft</td>
-                <td>$1000</td>
-            </tr>
-            <tr class="boder">
-                <td>2</td>
-                <td>def</td>
-                <td>Apple</td>
-                <td>$1100</td>
-            </tr>
-            <tr class="boder">
-                <td>3</td>
-                <td>ghi</td>
-                <td>Google</td>
-                <td>$1200</td>
-            </tr>
-            <tr class="boder">
-                <td colspan="4">total Salary: $3300</td>
-            </tr>
-        </tbody>
-        <tfoot>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="html5.html">HTML</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="form.html">FORM</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        </tfoot>
-    </table>
+    <main>
+        <h1>HTML Table</h1>
+        <table>
+            <caption>
+                Employee Salary Data
+            </caption>
+            <thead>
+                <tr class="boder">
+                    <th>No.</th>
+                    <th>name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="boder">
+                    <td>1</td>
+                    <td>abc</td>
+                    <td>microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr class="boder">
+                    <td>2</td>
+                    <td>def</td>
+                    <td>Apple</td>
+                    <td>$1100</td>
+                </tr>
+                <tr class="boder">
+                    <td>3</td>
+                    <td>ghi</td>
+                    <td>Google</td>
+                    <td>$1200</td>
+                </tr>
+                <tr class="boder">
+                    <td colspan="4">total Salary: $3300</td>
+                </tr>
+            </tbody>
+            <tfoot>
+    
+            </tfoot>
+        </table>
+    </main>
+    <ol>
+        <li>man</li>
+        <li>org</li>
+        <li>ban</li>
+    </ol>
+
 </body>
 </html>
